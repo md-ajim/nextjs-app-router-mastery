@@ -1,35 +1,16 @@
-# Node modules
-my-app/node_modules/
+node_modules/
+.next/
+out/
 
-# Build folders
-my-app/.next/
-my-app/.next/cache/
-my-app/out/
-
-
-# Env files
-
+.env
 .env.local
-my-app/.env
-my-app/.env.local
-my-app/.env.production
+.env.production
+.env.development
 
-
-# Python
-backend/__pycache__/
-*.py[cod]
-
-# Logs
-*.log
-npm-debug.log*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE/editor folders
 .vscode/
 .idea/
 
-# Others
-frontend/.turbo/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
