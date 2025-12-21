@@ -10,6 +10,8 @@ type HomeProps = {
 
 export default function Exercise({ name, age }: HomeProps) {
 
+  const [ count , setCount] = useState<number>(0)
+
   return (
 
     <>
