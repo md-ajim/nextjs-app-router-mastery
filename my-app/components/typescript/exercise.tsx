@@ -1,17 +1,21 @@
 
+'use client'
 
-  type HomeProps={
-    name : string,
-    age : number,
-  }
+import { useState } from "react"
 
-export default function Exercise( { name , age} : HomeProps){
+type HomeProps = {
+  name: string,
+  age: number,
+}
 
-  return(
+export default function Exercise({ name, age }: HomeProps) {
+
+  return (
 
     <>
-    <h1>  </h1>
-    
+      <h1> {name} </h1>
+      < p> {age}  </p>
+
     </>
 
   )
