@@ -9,8 +9,16 @@ type HomeProps = {
 }
 
 export default function Exercise({ name, age }: HomeProps) {
+  
+  type User ={
+    name : string,
+    age : number,
+    isDeveloper :  boolean
+  }
 
   const [ count , setCount] = useState<number>(0)
+  const [ names , setNames] = useState< string>('')
+  const [ user , setUser] = useState<User>({name: '' ,age : 0 , isDeveloper : true})
 
   return (
 
