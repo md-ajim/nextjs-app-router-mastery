@@ -5,9 +5,16 @@
     age : number,
   }
 
-export default function Exercise(){
-  
+export default function Exercise( { name , age} : HomeProps){
 
+  return(
+
+    <>
+    <h1>  </h1>
+    
+    </>
+
+  )
 
 
 }
