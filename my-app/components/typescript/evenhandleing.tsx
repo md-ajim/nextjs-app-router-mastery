@@ -24,11 +24,6 @@ export default function EeventHandling() {
 
   return <>
 
-        <Card>
-
-
-        </Card>
-  
 
 
   </>;
