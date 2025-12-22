@@ -22,9 +22,10 @@ export default function EeventHandling() {
 
 
 
-  return <>
-
-
-
-  </>;
+  return (
+    <>
+    
+    
+    </>
+  )
 }
